@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog>
+<book id="bk101">
+    <name>Book1</name>
+    <author>Gambardella</author>
+    <title>XML Developer's Guide</title>
+    <genre>Computer</genre>
+    <price>44.95</price>
+    <publish_date>2000-10-01</publish_date>
+    <description>An in-depth look at creating applications
+        with XML.</description>
+</book>
+<book id="bk102">
+    <name>Book2</name>
+    <author>Matt</author>
+    <title>XML Developer's Guide</title>
+    <genre>Computer2</genre>
+    <price>44.67</price>
+    <publish_date>2000-10-03</publish_date>
+    <description>An in-depth look at creating applications
+        with XML.</description>
+</book>
+
+</catalog>

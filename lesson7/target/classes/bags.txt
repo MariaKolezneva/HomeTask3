@@ -1,0 +1,16 @@
+Баг 1:
+
+Отображается ошибка "Unexpected closing tag catalog" в валидном xml файле.
+файл: valid.xml
+
+Баг 2:
+
+Отображается ошибка "Unexpected closing tag book" при отсутствии закрытого тэга.
+файл: invalid2.xml
+Тэг:  <price>44.95
+
+Баг 3:
+
+Отображается ошибка "Unexpected closing tag book" при отсутствии "/" в закрывающимся тэге.
+файл: invalid.xml
+Тэг: <name> Book1<name>
