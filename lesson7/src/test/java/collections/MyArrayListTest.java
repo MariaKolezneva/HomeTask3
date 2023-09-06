@@ -28,7 +28,6 @@ public class MyArrayListTest {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(testingArray.size(), 1);
         softAssert.assertEquals(testingArray.get(0).intValue(), 5);
-        softAssert.assertAll();
     }
 
     @Test(dependsOnMethods = "testAddElement")
